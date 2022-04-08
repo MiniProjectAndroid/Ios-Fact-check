@@ -21,6 +21,10 @@
 		C4075FC527FF8DC500F97431 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FC427FF8DC500F97431 /* OnboardingSlide.swift */; };
 		C4075FCE27FF8F1B00F97431 /* OnbordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FCD27FF8F1B00F97431 /* OnbordingViewController.swift */; };
 		C4075FD027FF8FEB00F97431 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FCF27FF8FEB00F97431 /* OnboardingCollectionViewCell.swift */; };
+		C4075FD427FFBDEE00F97431 /* ChatBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FD327FFBDEE00F97431 /* ChatBotViewController.swift */; };
+		C4075FD627FFC15D00F97431 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FD527FFC15D00F97431 /* AccountViewController.swift */; };
+		C4075FD827FFC53E00F97431 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FD727FFC53E00F97431 /* EditProfileViewController.swift */; };
+		C4075FDA27FFC98E00F97431 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4075FD927FFC98D00F97431 /* ChangePasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		C4075FC427FF8DC500F97431 /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingSlide.swift; path = "../../../../../Downloads/Fact-Check-main/factcheck/Models/OnboardingSlide.swift"; sourceTree = "<group>"; };
 		C4075FCD27FF8F1B00F97431 /* OnbordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingViewController.swift; sourceTree = "<group>"; };
 		C4075FCF27FF8FEB00F97431 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		C4075FD327FFBDEE00F97431 /* ChatBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotViewController.swift; sourceTree = "<group>"; };
+		C4075FD527FFC15D00F97431 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C4075FD727FFC53E00F97431 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		C4075FD927FFC98D00F97431 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -103,11 +111,15 @@
 				43D87F2327FF348E00ED28C4 /* Main.storyboard */,
 				43D87F2927FF349000ED28C4 /* Assets.xcassets */,
 				43D87F2B27FF349000ED28C4 /* LaunchScreen.storyboard */,
+				C4075FD527FFC15D00F97431 /* AccountViewController.swift */,
+				C4075FD327FFBDEE00F97431 /* ChatBotViewController.swift */,
 				43D87F2127FF348E00ED28C4 /* ViewController.swift */,
 				C4075FB727FF72F900F97431 /* SignInViewController.swift */,
 				C4075FB927FF78B500F97431 /* ForgetPasswordSignInViewController.swift */,
 				C4075FBB27FF818700F97431 /* RegisterViewController.swift */,
 				C4075FC827FF8DEB00F97431 /* Onbording */,
+				C4075FD727FFC53E00F97431 /* EditProfileViewController.swift */,
+				C4075FD927FFC98D00F97431 /* ChangePasswordViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,10 +261,14 @@
 			files = (
 				C4075FBA27FF78B500F97431 /* ForgetPasswordSignInViewController.swift in Sources */,
 				43D87F2227FF348E00ED28C4 /* ViewController.swift in Sources */,
+				C4075FD627FFC15D00F97431 /* AccountViewController.swift in Sources */,
+				C4075FDA27FFC98E00F97431 /* ChangePasswordViewController.swift in Sources */,
 				C4075FC327FF8DB800F97431 /* UIView+Extension.swift in Sources */,
 				C4075FCE27FF8F1B00F97431 /* OnbordingViewController.swift in Sources */,
 				C4075FBC27FF818700F97431 /* RegisterViewController.swift in Sources */,
+				C4075FD827FFC53E00F97431 /* EditProfileViewController.swift in Sources */,
 				43D87F2827FF348E00ED28C4 /* FackChek.xcdatamodeld in Sources */,
+				C4075FD427FFBDEE00F97431 /* ChatBotViewController.swift in Sources */,
 				43D87F1E27FF348E00ED28C4 /* AppDelegate.swift in Sources */,
 				C4075FB827FF72F900F97431 /* SignInViewController.swift in Sources */,
 				C4075FC527FF8DC500F97431 /* OnboardingSlide.swift in Sources */,
