@@ -38,9 +38,39 @@ This project is interpreted/tested on Ubuntu 20.04 LTS , Windows 10 and macOS us
 
 - Clone this repository on your PC
 
-### Mobile Environment
+# Mobile Environment
 
-To install and test the app on your android phone, you need to follow these steps:
+To install and test the app on your IPhone, you need to follow these steps:
+
+## POD Install
+
+   1. First open your terminal
+   2. Then update your gem file with command
+```sudo gem install -n /usr/local/bin cocoapods```
+    
+   3. Then give your project path
+```cd /your project path```
+
+   4. Create the podifle
+```pod init```
+
+   5. Open your podfile
+```open -e podfile```
+
+   6. It will open a podfile like a text edit. Then set your target. For example if you want to set up Google maps then your podfile should be like
+
+```bash
+use_frameworks!
+target 'yourProjectName' do
+    pod 'GoogleMaps'
+end
+```
+
+   7. Then install the pod
+
+```pod install```
+
+## Steps
 
 1. Open the project on XCode
 2. Connect your phone (IPhone 11) to your pc
@@ -49,7 +79,7 @@ To install and test the app on your android phone, you need to follow these step
 
 The apk file will be installed on your your phone, then you can use the mobile app.
 
-### Backend and API
+# Backend and API
 
 follow this Steps:
 
