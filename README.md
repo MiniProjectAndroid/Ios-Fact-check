@@ -63,6 +63,7 @@ To install and test the app on your IPhone, you need to follow these steps:
 use_frameworks!
 target 'yourProjectName' do
     pod 'GoogleMaps'
+    pod 'lottis-ios'
 end
 ```
 
