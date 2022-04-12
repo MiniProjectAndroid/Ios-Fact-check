@@ -14,6 +14,12 @@
 		476404BF28059E6D003AB9A4 /* FactCheck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476404BD28059E6D003AB9A4 /* FactCheck.xcdatamodeld */; };
 		476404C128059E6D003AB9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476404C028059E6D003AB9A4 /* Assets.xcassets */; };
 		476404C428059E6D003AB9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476404C228059E6D003AB9A4 /* LaunchScreen.storyboard */; };
+		C45398E22806241F00BF11EB /* TewtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398E12806241F00BF11EB /* TewtViewController.swift */; };
+		C45398E4280630A200BF11EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398E3280630A200BF11EB /* HomeViewController.swift */; };
+		C45398E6280630B000BF11EB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398E5280630B000BF11EB /* SearchViewController.swift */; };
+		C45398E8280630D600BF11EB /* BookMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398E7280630D600BF11EB /* BookMarkViewController.swift */; };
+		C45398EA280630E000BF11EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398E9280630E000BF11EB /* ListViewController.swift */; };
+		C45398EC280630EB00BF11EB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45398EB280630EB00BF11EB /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		476404C028059E6D003AB9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476404C328059E6D003AB9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476404C528059E6D003AB9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45398E12806241F00BF11EB /* TewtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TewtViewController.swift; sourceTree = "<group>"; };
+		C45398E3280630A200BF11EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C45398E5280630B000BF11EB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C45398E7280630D600BF11EB /* BookMarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkViewController.swift; sourceTree = "<group>"; };
+		C45398E9280630E000BF11EB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C45398EB280630EB00BF11EB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,12 @@
 				476404BA28059E6D003AB9A4 /* Main.storyboard */,
 				476404C028059E6D003AB9A4 /* Assets.xcassets */,
 				476404C228059E6D003AB9A4 /* LaunchScreen.storyboard */,
+				C45398E12806241F00BF11EB /* TewtViewController.swift */,
+				C45398E3280630A200BF11EB /* HomeViewController.swift */,
+				C45398E5280630B000BF11EB /* SearchViewController.swift */,
+				C45398E7280630D600BF11EB /* BookMarkViewController.swift */,
+				C45398E9280630E000BF11EB /* ListViewController.swift */,
+				C45398EB280630EB00BF11EB /* AccountViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,9 +200,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				476404B928059E6D003AB9A4 /* ViewController.swift in Sources */,
+				C45398E6280630B000BF11EB /* SearchViewController.swift in Sources */,
 				476404B528059E6D003AB9A4 /* AppDelegate.swift in Sources */,
 				476404BF28059E6D003AB9A4 /* FactCheck.xcdatamodeld in Sources */,
+				C45398E8280630D600BF11EB /* BookMarkViewController.swift in Sources */,
+				C45398EA280630E000BF11EB /* ListViewController.swift in Sources */,
+				C45398EC280630EB00BF11EB /* AccountViewController.swift in Sources */,
+				C45398E22806241F00BF11EB /* TewtViewController.swift in Sources */,
 				476404B728059E6D003AB9A4 /* SceneDelegate.swift in Sources */,
+				C45398E4280630A200BF11EB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
