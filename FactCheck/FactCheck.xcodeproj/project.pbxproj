@@ -12,20 +12,40 @@
 		476404B928059E6D003AB9A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476404B828059E6D003AB9A4 /* ViewController.swift */; };
 		476404BC28059E6D003AB9A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476404BA28059E6D003AB9A4 /* Main.storyboard */; };
 		476404BF28059E6D003AB9A4 /* FactCheck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 476404BD28059E6D003AB9A4 /* FactCheck.xcdatamodeld */; };
-		476404C128059E6D003AB9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476404C028059E6D003AB9A4 /* Assets.xcassets */; };
 		476404C428059E6D003AB9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476404C228059E6D003AB9A4 /* LaunchScreen.storyboard */; };
+		476404D12805A98E003AB9A4 /* loading screen.json in Resources */ = {isa = PBXBuildFile; fileRef = 476404D02805A98E003AB9A4 /* loading screen.json */; };
+		476404D52805B039003AB9A4 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476404D32805B039003AB9A4 /* OnboardingCollectionViewCell.swift */; };
+		476404D62805B039003AB9A4 /* OnbordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476404D42805B039003AB9A4 /* OnbordingViewController.swift */; };
+		476404D82805B114003AB9A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476404D72805B114003AB9A4 /* UIView+Extension.swift */; };
+		476404DA2805B123003AB9A4 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476404D92805B123003AB9A4 /* OnboardingSlide.swift */; };
+		47B363182805CE9F007D5B06 /* DoYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B363172805CE9F007D5B06 /* DoYouViewController.swift */; };
+		47B3631A28060D37007D5B06 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3631928060D37007D5B06 /* CreateAccountViewController.swift */; };
+		47B3631C28061D87007D5B06 /* SinginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B3631B28061D87007D5B06 /* SinginViewController.swift */; };
+		47B3631E28062A57007D5B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B3631D28062A57007D5B06 /* Assets.xcassets */; };
+		74068AAFDF47661AF5B63956 /* Pods_FactCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF1DEACC27416DE59700CD5 /* Pods_FactCheck.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FF1DEACC27416DE59700CD5 /* Pods_FactCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FactCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D0C6192EB2E5492BFFD88C /* Pods-FactCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FactCheck.release.xcconfig"; path = "Target Support Files/Pods-FactCheck/Pods-FactCheck.release.xcconfig"; sourceTree = "<group>"; };
 		476404B128059E6D003AB9A4 /* FactCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476404B428059E6D003AB9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476404B628059E6D003AB9A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		476404B828059E6D003AB9A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		476404BB28059E6D003AB9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		476404BE28059E6D003AB9A4 /* FactCheck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FactCheck.xcdatamodel; sourceTree = "<group>"; };
-		476404C028059E6D003AB9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476404C328059E6D003AB9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476404C528059E6D003AB9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476404D02805A98E003AB9A4 /* loading screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading screen.json"; sourceTree = "<group>"; };
+		476404D32805B039003AB9A4 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		476404D42805B039003AB9A4 /* OnbordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnbordingViewController.swift; sourceTree = "<group>"; };
+		476404D72805B114003AB9A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		476404D92805B123003AB9A4 /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		47B363172805CE9F007D5B06 /* DoYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouViewController.swift; sourceTree = "<group>"; };
+		47B3631928060D37007D5B06 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		47B3631B28061D87007D5B06 /* SinginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinginViewController.swift; sourceTree = "<group>"; };
+		47B3631D28062A57007D5B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		886B23F0C8CCF56422987E62 /* Pods-FactCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FactCheck.debug.xcconfig"; path = "Target Support Files/Pods-FactCheck/Pods-FactCheck.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74068AAFDF47661AF5B63956 /* Pods_FactCheck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343399EB2D05376D0F0946F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEACC27416DE59700CD5 /* Pods_FactCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		476404A828059E6D003AB9A4 = {
 			isa = PBXGroup;
 			children = (
 				476404B328059E6D003AB9A4 /* FactCheck */,
 				476404B228059E6D003AB9A4 /* Products */,
+				5C57AB92DAB4CE7E20BA7A24 /* Pods */,
+				343399EB2D05376D0F0946F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,10 +105,15 @@
 		476404CB28059E8E003AB9A4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				476404D02805A98E003AB9A4 /* loading screen.json */,
+				47B3631B28061D87007D5B06 /* SinginViewController.swift */,
+				47B3631928060D37007D5B06 /* CreateAccountViewController.swift */,
+				47B363172805CE9F007D5B06 /* DoYouViewController.swift */,
 				476404B828059E6D003AB9A4 /* ViewController.swift */,
 				476404BA28059E6D003AB9A4 /* Main.storyboard */,
-				476404C028059E6D003AB9A4 /* Assets.xcassets */,
+				47B3631D28062A57007D5B06 /* Assets.xcassets */,
 				476404C228059E6D003AB9A4 /* LaunchScreen.storyboard */,
+				476404D22805AFEC003AB9A4 /* Onboarding */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +121,7 @@
 		476404CC28059E98003AB9A4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				476404D92805B123003AB9A4 /* OnboardingSlide.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,8 +143,27 @@
 		476404CF28059ECA003AB9A4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				476404D72805B114003AB9A4 /* UIView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		476404D22805AFEC003AB9A4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				476404D32805B039003AB9A4 /* OnboardingCollectionViewCell.swift */,
+				476404D42805B039003AB9A4 /* OnbordingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5C57AB92DAB4CE7E20BA7A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				886B23F0C8CCF56422987E62 /* Pods-FactCheck.debug.xcconfig */,
+				37D0C6192EB2E5492BFFD88C /* Pods-FactCheck.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 476404C828059E6D003AB9A4 /* Build configuration list for PBXNativeTarget "FactCheck" */;
 			buildPhases = (
+				F7CE8275DC4A431814F060DA /* [CP] Check Pods Manifest.lock */,
 				476404AD28059E6D003AB9A4 /* Sources */,
 				476404AE28059E6D003AB9A4 /* Frameworks */,
 				476404AF28059E6D003AB9A4 /* Resources */,
+				0155CBD5FFFC0B376F4425B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,20 +227,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				476404C428059E6D003AB9A4 /* LaunchScreen.storyboard in Resources */,
-				476404C128059E6D003AB9A4 /* Assets.xcassets in Resources */,
+				476404D12805A98E003AB9A4 /* loading screen.json in Resources */,
+				47B3631E28062A57007D5B06 /* Assets.xcassets in Resources */,
 				476404BC28059E6D003AB9A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0155CBD5FFFC0B376F4425B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FactCheck/Pods-FactCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FactCheck/Pods-FactCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FactCheck/Pods-FactCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CE8275DC4A431814F060DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FactCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		476404AD28059E6D003AB9A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B3631C28061D87007D5B06 /* SinginViewController.swift in Sources */,
+				47B3631A28060D37007D5B06 /* CreateAccountViewController.swift in Sources */,
 				476404B928059E6D003AB9A4 /* ViewController.swift in Sources */,
+				476404D82805B114003AB9A4 /* UIView+Extension.swift in Sources */,
 				476404B528059E6D003AB9A4 /* AppDelegate.swift in Sources */,
+				476404D52805B039003AB9A4 /* OnboardingCollectionViewCell.swift in Sources */,
+				476404DA2805B123003AB9A4 /* OnboardingSlide.swift in Sources */,
+				476404D62805B039003AB9A4 /* OnbordingViewController.swift in Sources */,
+				47B363182805CE9F007D5B06 /* DoYouViewController.swift in Sources */,
 				476404BF28059E6D003AB9A4 /* FactCheck.xcdatamodeld in Sources */,
 				476404B728059E6D003AB9A4 /* SceneDelegate.swift in Sources */,
 			);
@@ -326,6 +434,7 @@
 		};
 		476404C928059E6D003AB9A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886B23F0C8CCF56422987E62 /* Pods-FactCheck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -353,6 +462,7 @@
 		};
 		476404CA28059E6D003AB9A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D0C6192EB2E5492BFFD88C /* Pods-FactCheck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
