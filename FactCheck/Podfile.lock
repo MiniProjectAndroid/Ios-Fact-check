@@ -1,16 +1,42 @@
 PODS:
+  - Alamofire (5.6.1)
+  - BulletinBoard (5.0.0)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
   - lottie-ios (3.3.0)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - ShowPasswordTextField (1.0.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - BulletinBoard
   - lottie-ios
+  - MessageKit
+  - ShowPasswordTextField
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - BulletinBoard
+    - InputBarAccessoryView
     - lottie-ios
+    - MessageKit
+    - ShowPasswordTextField
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
   lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  ShowPasswordTextField: afaa03b704087989f841e3bdd4525383261104d1
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 8de8c47b07837e9a35f3b45a471b8dbdd5c826a5
+PODFILE CHECKSUM: 9cdc3f357886f162e683b17b358f3febb8cb1b46
 
 COCOAPODS: 1.11.3

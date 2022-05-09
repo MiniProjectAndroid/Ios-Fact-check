@@ -28,7 +28,7 @@ class OnbordingViewController: UIViewController {
        
        override func viewDidLoad() {
            super.viewDidLoad()
-           slides = [OnboardingSlide(title: "Get the latest news from", description: "reliable sources", image:   #imageLiteral(resourceName: "kais said"))   ,OnboardingSlide(title: "Get actual news from", description: "around the world", image: #imageLiteral(resourceName: "photo")),OnboardingSlide(title: "Sport,politics,healthy,", description: "& anything", image: #imageLiteral(resourceName: "hannidd"))]
+           slides = [OnboardingSlide(title: "Get the latest news from", description: "reliable sources", image:   #imageLiteral(resourceName: "first"))   ,OnboardingSlide(title: "Get actual news from", description: "around the world", image: #imageLiteral(resourceName: "second")),OnboardingSlide(title: "Sport,politics,healthy,", description: "& anything", image: #imageLiteral(resourceName: "third"))]
        }
        
        //ibAction
@@ -36,7 +36,7 @@ class OnbordingViewController: UIViewController {
            if currentPage == slides.count - 1{
                let controller = storyboard?.instantiateViewController(withIdentifier: "HomeNC") as! UINavigationController
                controller.modalPresentationStyle = .fullScreen
-               controller.modalTransitionStyle = .flipHorizontal
+               controller.modalTransitionStyle = .coverVertical
                present(controller, animated: true, completion: nil)
            }else{
            currentPage += 1
