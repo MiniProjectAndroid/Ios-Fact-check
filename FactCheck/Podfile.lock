@@ -1,0 +1,82 @@
+PODS:
+  - Alamofire (5.6.1)
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - BulletinBoard (5.0.0)
+  - FBAEMKit (13.1.0):
+    - FBSDKCoreKit_Basics (= 13.1.0)
+  - FBSDKCoreKit (13.1.0):
+    - FBAEMKit (= 13.1.0)
+    - FBSDKCoreKit_Basics (= 13.1.0)
+  - FBSDKCoreKit_Basics (13.1.0)
+  - FBSDKLoginKit (13.1.0):
+    - FBSDKCoreKit (= 13.1.0)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.3):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.1)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - lottie-ios (3.3.0)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - ShowPasswordTextField (1.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BulletinBoard
+  - FBSDKLoginKit
+  - GoogleSignIn
+  - lottie-ios
+  - MessageKit
+  - ShowPasswordTextField
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - BulletinBoard
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - InputBarAccessoryView
+    - lottie-ios
+    - MessageKit
+    - ShowPasswordTextField
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
+  FBAEMKit: 3be32ffb79fe7c0603fed00d81742b23241e89a5
+  FBSDKCoreKit: eff97dea778dbe6cc4498959cffb619c75675102
+  FBSDKCoreKit_Basics: c151609a1cf6976a5958febcf0043266a8fd5151
+  FBSDKLoginKit: 42932c7ad6f6b91854fc0a6bcc79b7e807bcde4b
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: 987526d41b07efb1bedda5e936fe0cb718a03113
+  GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  ShowPasswordTextField: afaa03b704087989f841e3bdd4525383261104d1
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: efbc3c4d2e6b208ed11528accec9fc1925f50e1e
+
+COCOAPODS: 1.11.3
